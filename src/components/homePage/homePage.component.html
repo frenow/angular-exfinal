@@ -1,0 +1,11 @@
+<div>
+<h2>Numero de casos por UF</h2>
+<ul>
+    <li *ngFor="let state of states">
+        <a routerLink="state/{{state.state}}">
+            <p>{{state.state}} Casos: {{state.confirmed}} Mortes: {{state.deaths}}</p>
+         </a>
+    </li>
+</ul>
+<map-brasil></map-brasil>
+</div>
