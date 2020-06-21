@@ -1,11 +1,18 @@
 <div>
-    <a href="javascript:history.back()">Go Back</a>
+    <a href="javascript:history.back()">Voltar</a>
     <h1>{{uf}}</h1>
     <form-search (SearchCity)="onSearchCity($event)"> </form-search>
-    <ul>
-        <li *ngFor="let c of cities">
-            <p>{{c.city}} Casos: {{c.confirmed}} Mortes: {{c.deaths}}</p>
-        </li>
-    </ul>
+    <table border="1">
+        <tr>
+          <th>Cidade</th>
+          <th>Casos Confirmados</th>
+          <th>Mortes</th>
+        </tr>
+        <tr *ngFor="let city of cities">
+            <td>{{city.city}}</td>
+            <td>{{city.confirmed}}</td>
+            <td>{{city.deaths}}</td>
+        </tr>
+    </table>
     
     </div>

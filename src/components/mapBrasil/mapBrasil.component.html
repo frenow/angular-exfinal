@@ -1,34 +1,223 @@
-<div id="map">
+<div>
 <img src="assets/images/brasil.png" usemap="#image-map" width="800" height="600">
 
 <map name="image-map">
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[2] && states[2].state }}&#10;Casos confirmados: {{states[2] && states[2].confirmed}}&#10;Mortes: {{states[2] && states[2].deaths}}" href="state/AM" coords="193,145,47" shape="circle">
+    <span>
+        <strong>Estado {{states[2] && states[2].state }}</strong><br />
+        Casos confirmados: {{states[2] && states[2].confirmed}}<br />
+        Mortes: {{states[2] && states[2].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[0] && states[0].state }}&#10;Casos confirmados: {{states[0] && states[0].confirmed}}&#10;Mortes: {{states[0] && states[0].deaths}}" href="state/AC"  coords="68,226,17" shape="circle">
+    <span>
+        <strong>Estado {{states[0] && states[0].state }}</strong><br />
+        Casos confirmados: {{states[0] && states[0].confirmed}}<br />
+        Mortes: {{states[0] && states[0].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[18] && states[18].state }}&#10;Casos confirmados: {{states[18] && states[18].confirmed}}&#10;Mortes: {{states[18] && states[18].deaths}}" href="state/RO" coords="227,250,32" shape="circle">
+    <span>
+        <strong>Estado {{states[18] && states[18].state }}</strong><br />
+        Casos confirmados: {{states[18] && states[18].confirmed}}<br />
+        Mortes: {{states[18] && states[18].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[12] && states[12].state }}&#10;Casos confirmados: {{states[12] && states[12].confirmed}}&#10;Mortes: {{states[12] && states[12].deaths}}" href="state/PA" coords="422,163,60" shape="circle">
+    <span>
+        <strong>Estado {{states[12] && states[12].state }}</strong><br />
+        Casos confirmados: {{states[12] && states[12].confirmed}}<br />
+        Mortes: {{states[12] && states[12].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[25] && states[25].state }}&#10;Casos confirmados: {{states[25] && states[25].confirmed}}&#10;Mortes: {{states[25] && states[25].deaths}}" href="state/RR" coords="254,61,27" shape="circle">
+    <span>
+        <strong>Estado {{states[25] && states[25].state }}</strong><br />
+        Casos confirmados: {{states[25] && states[25].confirmed}}<br />
+        Mortes: {{states[25] && states[25].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[3] && states[3].state }}&#10;Casos confirmados: {{states[3] && states[3].confirmed}}&#10;Mortes: {{states[3] && states[3].deaths}}" href="state/AP" coords="453,62,29" shape="circle">
+    <span>
+        <strong>Estado {{states[3] && states[3].state }}</strong><br />
+        Casos confirmados: {{states[3] && states[3].confirmed}}<br />
+        Mortes: {{states[3] && states[3].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[19] && states[19].state }}&#10;Casos confirmados: {{states[19] && states[19].confirmed}}&#10;Mortes: {{states[19] && states[19].deaths}}" href="state/RS" coords="416,531,33" shape="circle">
+    <span>
+        <strong>Estado {{states[19] && states[19].state }}</strong><br />
+        Casos confirmados: {{states[19] && states[16].confirmed}}<br />
+        Mortes: {{states[19] && states[19].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[20] && states[20].state }}&#10;Casos confirmados: {{states[20] && states[20].confirmed}}&#10;Mortes: {{states[20] && states[20].deaths}}" href="state/SC" coords="481,499,23" shape="circle">
+    <span>
+        <strong>Estado {{states[20] && states[20].state }}</strong><br />
+        Casos confirmados: {{states[20] && states[20].confirmed}}<br />
+        Mortes: {{states[20] && states[20].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[16] && states[16].state }}&#10;Casos confirmados: {{states[16] && states[16].confirmed}}&#10;Mortes: {{states[16] && states[16].deaths}}" href="state/PR" coords="445,457,29" shape="circle">
+    <span>
+        <strong>Estado {{states[16] && states[16].state }}</strong><br />
+        Casos confirmados: {{states[16] && states[16].confirmed}}<br />
+        Mortes: {{states[16] && states[16].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[22] && states[22].state }}&#10;Casos confirmados: {{states[22] && states[22].confirmed}}&#10;Mortes: {{states[22] && states[22].deaths}}" href="state/SP" coords="506,424,26" shape="circle">
+    <span>
+        <strong>Estado {{states[22] && states[22].state }}</strong><br />
+        Casos confirmados: {{states[22] && states[22].confirmed}}<br />
+        Mortes: {{states[22] && states[22].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[23] && states[23].state }}&#10;Casos confirmados: {{states[23] && states[23].confirmed}}&#10;Mortes: {{states[23] && states[23].deaths}}" href="state/MS" coords="386,390,37" shape="circle">
+    <span>
+        <strong>Estado {{states[23] && states[23].state }}</strong><br />
+        Casos confirmados: {{states[23] && states[23].confirmed}}<br />
+        Mortes: {{states[23] && states[23].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[10] && states[10].state }}&#10;Casos confirmados: {{states[10] && states[10].confirmed}}&#10;Mortes: {{states[10] && states[10].deaths}}" href="state/MG" coords="589,374,40" shape="circle">
+    <span>
+        <strong>Estado {{states[10] && states[10].state }}</strong><br />
+        Casos confirmados: {{states[10] && states[10].confirmed}}<br />
+        Mortes: {{states[10] && states[10].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[17] && states[17].state }}&#10;Casos confirmados: {{states[17] && states[17].confirmed}}&#10;Mortes: {{states[17] && states[17].deaths}}" href="state/RJ" coords="649,443,27" shape="circle">
+    <span>
+        <strong>Estado {{states[17] && states[17].state }}</strong><br />
+        Casos confirmados: {{states[17] && states[17].confirmed}}<br />
+        Mortes: {{states[17] && states[17].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[7] && states[7].state }}&#10;Casos confirmados: {{states[7] && states[7].confirmed}}&#10;Mortes: {{states[7] && states[7].deaths}}" href="state/ES" coords="694,395,27" shape="circle">
+    <span>
+        <strong>Estado {{states[7] && states[7].state }}</strong><br />
+        Casos confirmados: {{states[7] && states[7].confirmed}}<br />
+        Mortes: {{states[7] && states[7].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[8] && states[8].state }}&#10;Casos confirmados: {{states[8] && states[8].confirmed}}&#10;Mortes: {{states[8] && states[8].deaths}}" href="state/GO" coords="473,335,32" shape="circle">
+    <span>
+        <strong>Estado {{states[8] && states[8].state }}</strong><br />
+        Casos confirmados: {{states[8] && states[8].confirmed}}<br />
+        Mortes: {{states[8] && states[8].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[6] && states[6].state }}&#10;Casos confirmados: {{states[6] && states[6].confirmed}}&#10;Mortes: {{states[6] && states[6].deaths}}" href="state/DF" coords="549,328,20" shape="circle">
+    <span>
+        <strong>Estado {{states[6] && states[6].state }}</strong><br />
+        Casos confirmados: {{states[6] && states[6].confirmed}}<br />
+        Mortes: {{states[6] && states[6].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[11] && states[11].state }}&#10;Casos confirmados: {{states[11] && states[11].confirmed}}&#10;Mortes: {{states[11] && states[11].deaths}}" href="state/MT" coords="369,282,51" shape="circle">
+    <span>
+        <strong>Estado {{states[11] && states[11].state }}</strong><br />
+        Casos confirmados: {{states[11] && states[11].confirmed}}<br />
+        Mortes: {{states[11] && states[11].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[26] && states[26].state }}&#10;Casos confirmados: {{states[26] && states[26].confirmed}}&#10;Mortes: {{states[26] && states[26].deaths}}" href="state/TO" coords="521,242,30" shape="circle">
+    <span>
+        <strong>Estado {{states[26] && states[26].state }}</strong><br />
+        Casos confirmados: {{states[26] && states[26].confirmed}}<br />
+        Mortes: {{states[26] && states[26].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[4] && states[4].state }}&#10;Casos confirmados: {{states[4] && states[4].confirmed}}&#10;Mortes: {{states[4] && states[4].deaths}}" href="state/BA" coords="641,273,45" shape="circle">
+    <span>
+        <strong>Estado {{states[4] && states[4].state }}</strong><br />
+        Casos confirmados: {{states[4] && states[4].confirmed}}<br />
+        Mortes: {{states[4] && states[4].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[9] && states[9].state }}&#10;Casos confirmados: {{states[9] && states[9].confirmed}}&#10;Mortes: {{states[9] && states[9].deaths}}" href="state/MA" coords="582,164,36" shape="circle">
+    <span>
+        <strong>Estado {{states[9] && states[9].state }}</strong><br />
+        Casos confirmados: {{states[9] && states[9].confirmed}}<br />
+        Mortes: {{states[9] && states[9].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[15] && states[15].state }}&#10;Casos confirmados: {{states[15] && states[15].confirmed}}&#10;Mortes: {{states[15] && states[15].deaths}}" href="state/PI" coords="623,208,22" shape="circle">
+    <span>
+        <strong>Estado {{states[15] && states[15].state }}</strong><br />
+        Casos confirmados: {{states[15] && states[15].confirmed}}<br />
+        Mortes: {{states[15] && states[15].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[5] && states[5].state }}&#10;Casos confirmados: {{states[5] && states[5].confirmed}}&#10;Mortes: {{states[5] && states[5].deaths}}" href="state/CE" coords="693,167,28" shape="circle">
+    <span>
+        <strong>Estado {{states[5] && states[5].state }}</strong><br />
+        Casos confirmados: {{states[5] && states[5].confirmed}}<br />
+        Mortes: {{states[5] && states[5].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[24] && states[24].state }}&#10;Casos confirmados: {{states[24] && states[24].confirmed}}&#10;Mortes: {{states[24] && states[24].deaths}}" href="state/RN" coords="754,179,13" shape="circle">
+    <span>
+        <strong>Estado {{states[24] && states[24].state }}</strong><br />
+        Casos confirmados: {{states[24] && states[24].confirmed}}<br />
+        Mortes: {{states[24] && states[24].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[13] && states[13].state }}&#10;Casos confirmados: {{states[13] && states[13].confirmed}}&#10;Mortes: {{states[13] && states[13].deaths}}" href="state/PB" coords="767,202,14" shape="circle">
+    <span>
+        <strong>Estado {{states[13] && states[13].state }}</strong><br />
+        Casos confirmados: {{states[13] && states[13].confirmed}}<br />
+        Mortes: {{states[13] && states[13].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[14] && states[14].state }}&#10;Casos confirmados: {{states[14] && states[14].confirmed}}&#10;Mortes: {{states[14] && states[14].deaths}}" href="state/PE" coords="721,221,16" shape="circle">
+    <span>
+        <strong>Estado {{states[14] && states[14].state }}</strong><br />
+        Casos confirmados: {{states[14] && states[14].confirmed}}<br />
+        Mortes: {{states[14] && states[14].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[1] && states[1].state }}&#10;Casos confirmados: {{states[1] && states[1].confirmed}}&#10;Mortes: {{states[1] && states[1].deaths}}" href="state/AL" coords="777,252,13" shape="circle">
+    <span>
+        <strong>Estado {{states[1] && states[1].state }}</strong><br />
+        Casos confirmados: {{states[1] && states[1].confirmed}}<br />
+        Mortes: {{states[1] && states[1].deaths}}<br />
+    </span>
+    </a>
+    <a href="#" class="tooltip">
     <area target="" alt="" title="{{states[21] && states[21].state }}&#10;Casos confirmados: {{states[21] && states[21].confirmed}}&#10;Mortes: {{states[21] && states[21].deaths}}" href="state/SE" coords="753,270,15" shape="circle">
+    <span>
+        <strong>Estado {{states[21] && states[21].state }}</strong><br />
+        Casos confirmados: {{states[21] && states[21].confirmed}}<br />
+        Mortes: {{states[21] && states[21].deaths}}<br />
+    </span>
+    </a>
 </map>
 
 </div>

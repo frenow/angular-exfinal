@@ -10,11 +10,12 @@ import { homePage } from "../components/homePage/homePage.component";
 import { mapBrasil } from "../components/mapBrasil/mapBrasil.component";
 import { state } from "../components/state/state.component";
 import { formSearch } from "../components/formSearch/formSearch.component";
+import { titlePage } from "../components/titlePage/titlePage.component";
 
 
 @NgModule({
   declarations: [
-    AppComponent, homePage, mapBrasil, state, formSearch
+    AppComponent, homePage, mapBrasil, state, formSearch, titlePage
   ],
   imports: [ BrowserModule, HttpClientModule, AppRoutingModule, FormsModule ],
   providers: [],
