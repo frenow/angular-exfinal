@@ -1,0 +1,11 @@
+<div>
+    <form>
+    <label>Busca</label>
+      <input
+        [(ngModel)]="filter"
+        name="filter"
+        (ngModelChange)="onInputChange($event)"
+        placeholder="Busca por Nome da Cidade"
+      />
+    </form>
+  </div>

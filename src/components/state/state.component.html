@@ -1,8 +1,10 @@
 <div>
-    <h1>CIDADES</h1>
+    <a href="javascript:history.back()">Go Back</a>
+    <h1>{{uf}}</h1>
+    <form-search (SearchCity)="onSearchCity($event)"> </form-search>
     <ul>
-        <li *ngFor="let city of cities">
-            <p>{{city.city}}/{{city.state}} Casos: {{city.confirmed}} Mortes: {{city.deaths}}</p>
+        <li *ngFor="let c of cities">
+            <p>{{c.city}} Casos: {{c.confirmed}} Mortes: {{c.deaths}}</p>
         </li>
     </ul>
     

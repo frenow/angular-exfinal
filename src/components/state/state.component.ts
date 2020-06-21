@@ -10,20 +10,22 @@ import { ICities } from "../../cities";
 })
 export class state {
   cities: ICities[];
+  listCities: ICities[];
+
   uf: string;
 
   constructor(private route: ActivatedRoute, private covid: covidService) {
     this.cities = [];
+    this.listCities = this.cities; 
    }
 
   ngOnInit() {
     this.route.params.subscribe(params => {
         this.uf = params["uf"];
     });
-    console.log(this.uf);
 
     this.covid.getUF(this.uf).subscribe(data => {
-      console.log('xxxx '+data.results[0]);
+      
       data.results.map(data =>
         this.cities.push({
           city: data.city,
@@ -36,4 +38,12 @@ export class state {
     });
   }
 
+  onSearchCity(city: string) {
+    if (city === "") {
+      this.cities = this.listCities;
+    }
+    this.cities = this.cities.filter(
+      item => (item.city && item.city.toLowerCase().indexOf(city.toLowerCase()) !== -1)
+    );
+  }
 }

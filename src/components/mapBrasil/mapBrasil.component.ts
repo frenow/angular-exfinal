@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
+import { IStates } from 'src/states';
 
 @Component({
   selector: "map-brasil",
@@ -6,6 +7,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./mapBrasil.component.css"]
 })
 export class mapBrasil {
+  @Input() states: IStates[];
 
   constructor() { }
 
