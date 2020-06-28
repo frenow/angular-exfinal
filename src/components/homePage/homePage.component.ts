@@ -16,7 +16,7 @@ export class homePage {
 
   ngOnInit() {
     this.covid.getBR().subscribe(data => {
-      console.log(data.results[0]);
+      //console.log(data.results[0]);
       data.results.map(data =>
         this.states.push({
           state: data.state,
