@@ -1,6 +1,5 @@
 import { Component, Input } from "@angular/core";
 import { IStates } from 'src/states';
-import { state } from '../state/state.component';
 
 @Component({
     selector: 'piechart',
@@ -12,7 +11,7 @@ export class pieChart {
   
   // Pie                           //0    1    2    3    4    5    6
   public pieChartLabels:string[] = ['SP','RJ','MG','AM','PA','CE','PE'];
-  public pieChartData:number[] =   [ 40,  20,  15 , 10,  5,    5,  5];
+  public pieChartData:number[] =   [14338,9819,899,2782,4870,5995,4751];
   public pieChartType:string = 'pie';
  
   // events
@@ -24,10 +23,11 @@ export class pieChart {
     //console.log(e);
   }
 
-  constructor() { }
+  constructor() {
+    
+   }
 
-  ngAfterViewInit() { 
-    console.log(this.states[22]);
+   ngAfterViewChecked() { 
     this.pieChartData[0] = (this.states[22] && Number(this.states[22].deaths));
     this.pieChartData[1] = (this.states[17] && Number(this.states[17].deaths));
     this.pieChartData[2] = (this.states[10] && Number(this.states[10].deaths));
