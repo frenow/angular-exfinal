@@ -1,0 +1,17 @@
+○ Porque eu escolhi o framework Angular?
+-Mesmo sendo um framework com uma curva de aprendizado maior que seus concorrentes, devs acostumados com Orientacao a Objeto nao tem dificuldade nos primeiros passos.
+-Utiliza typescript nativamente, proporcionando maior controle de projetos de grande porte.
+
+○ Quais os três principais benefícios em relação ao React?
+-Typescript nativo
+-Framework completo
+-Proporciona maior organizacao e controle 
+
+○ Quais possíveis problemas poderemos enfrentar na utilização desse framework?
+-O framework é complexo para quem nunca utilizou recursos de orientação a objetos e tipagem de dados. 
+Assim, a curva de aprendizado é um pouco mais longa para quem vem apenas do JavaScript.
+-A principal diferença e vantagem do RectJS em relação ao Angular é chamada de Virtual DOM ou VDOM, 
+que é um conceito de programação onde existe uma representação da UI cacheada em memória, 
+sincronizada com o DOM real do browser, com a utilização do ReactDOM. 
+Desse modo, as alterações de DOM são muito mais rápidas, já que temos todo o cache e o ReactJS 
+se vira para sincronizar e atualizar o nosso DOM real, mudando apenas o que é necessário.
