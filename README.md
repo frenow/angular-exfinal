@@ -1,11 +1,10 @@
 # Trabalho Final - Frameworks front-end: Angular & Vue 
 
-https://frenow.github.io/angular-exfinal
+Publicado: https://frenow.github.io/angular-exfinal
 
+API usada: https://brasil.io
 
-API https://brasil.io
-
-# Nomes:
+# Integrantes:
 - Emerson Duarte
 - Fabio Teixeira
 
