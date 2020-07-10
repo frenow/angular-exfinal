@@ -8,3 +8,6 @@ API https://brasil.io
 # Nomes:
 - Emerson Duarte
 - Fabio Teixeira
+
+# Comando para rodar:
+- npm start
